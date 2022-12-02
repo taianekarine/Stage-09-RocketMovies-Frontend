@@ -7,7 +7,8 @@ display: flex;
 align-items: center;
 
 background-color: ${({ theme }) => theme.COLORS.BG_INPUT};
-color: ${({ theme }) => theme.COLORS.BG_INPUT};
+color: ${({ theme }) => theme.COLORS.C_FONT_INPUT};
+
 
 border-radius: 1rem;
 margin-bottom: .8rem;
@@ -26,13 +27,10 @@ margin-bottom: .8rem;
   &::placeholder {
     color: ${({ theme }) => theme.COLORS.C_FONT_INPUT};
   }
-
-> svg {
-  margin-left: 1.6rem;
-  color: ${({ theme }) => theme.COLORS.BG_INPUT};
-  background-color: ${({ theme }) => theme.COLORS.BG_INPUT};
 }
 
+svg {
+  margin-left: 1.6rem;
 }
 
 `;

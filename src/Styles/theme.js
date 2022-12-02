@@ -7,6 +7,7 @@ export default {
     BG_BUTTON: '#FF859B',
     BG_SCROLL: '#FF859B',
     BG_MARGIN: '#3E3B47',
+    BG_BORDER: '#948F99',
 
     C_FONT_1: '#F4EDE8',
     C_FONT_2: '#E5E5E5',

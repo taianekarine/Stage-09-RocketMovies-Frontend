@@ -1,10 +1,10 @@
 import { Container } from './styles';
 
 
-export const Section = ({title, children}) => {
+export const Section = ({title, children, style}) => {
   return (
     <Container>
-      <h2>{title}</h2>
+      <h2 style = {style}>{title}</h2>
       {children}
     </Container>
   )
