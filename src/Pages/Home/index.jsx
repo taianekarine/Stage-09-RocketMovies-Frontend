@@ -5,6 +5,7 @@ import {StarEmpty} from '../../Components/StarEmpty';
 import {StarColor} from '../../Components/StarColor';
 import { FiPlus } from 'react-icons/fi';
 import { Button } from '../../Components/Button';
+import { Link } from "react-router-dom";
 
 
 export function Home() {
@@ -21,11 +22,12 @@ export function Home() {
         <MyFilms>
           <div>
           <h1>Meus filmes</h1>
+          <Link to = '/createmovie'>
           <Button 
             icon = {FiPlus}
             title = {'Adicionar filme'}
-            to = '/createmovie'
           />
+          </Link>
           </div>
         </MyFilms>
 
