@@ -1,14 +1,13 @@
 import { Container, Profile } from './styles';
 import { Input } from '../Input';
 
-
 export const Header = () => {
   return (
     <Container>
      
       <h1>RocketMovies</h1>
       <Input placeholder = 'Pesquise pelo título'/>
-      <Profile>
+      <Profile to = '/profile'>
         <div>
         <p>Taiane Karine</p>
         <a href="/">Sair</a>

@@ -6,6 +6,7 @@ import { Textarea } from '../../Components/TextArea';
 import { NoteItem } from '../../Components/NoteItem';
 import { Section } from '../../Components/Section';
 import { Button } from '../../Components/Button'
+import { Link } from 'react-router-dom';
 
 export const CreateMovie = () => {
   return (
@@ -15,7 +16,7 @@ export const CreateMovie = () => {
       <main>
         <Form>
           <header>
-            <a href="/"><FiArrowLeft/> Voltar</a>
+            <Link to = '/'><FiArrowLeft/> Voltar</Link>
             <h1>Novo Filme</h1>
           </header>
 

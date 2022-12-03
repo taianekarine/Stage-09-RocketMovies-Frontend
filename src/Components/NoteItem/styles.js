@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   border: ${({ theme, isNew }) => isNew ? `1px dashed ${theme.COLORS.BG_BORDER}` : `${theme.COLORS.BG_BORDER}`};
   border-radius: 1rem;
-  margin-bottom: 4rem;
+  
 
   > button {
     border: none;

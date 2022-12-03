@@ -18,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, button, a, p, h1, h2, textarea {
+body, input, button, a, p, h1, h2, textarea, span {
   font-family: 'Roboto Slab', serif;
   outline: none;
 } 

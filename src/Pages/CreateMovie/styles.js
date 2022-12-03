@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
 
 width: 100%;
+height: 100vh;
 display: grid;
 grid-template-rows: 10.5rem auto;
 grid-template-areas:
@@ -10,18 +11,24 @@ grid-template-areas:
 'content';
 
 > main {
+  display: grid;
   grid-area: content;
   overflow-y: scroll;
+  
 }
 
 .tags {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: black;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 `;
-
 
 export const Form = styled.form`
   width: 118rem;
@@ -55,7 +62,6 @@ export const Form = styled.form`
     display: flex;
     gap: 4rem;
     margin-bottom: 4rem;
-    
   }
 
   .buttons {

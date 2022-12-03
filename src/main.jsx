@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './Styles/global';
 import theme from './Styles/theme'
-import { CreateMovie } from './Pages/CreateMovie'
+import { Routes } from './Routes'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       
       <GlobalStyles />
      
-      <CreateMovie />
+      <Routes />
 
     </ThemeProvider>
   </React.StrictMode>

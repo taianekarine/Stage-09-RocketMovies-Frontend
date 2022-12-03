@@ -8,16 +8,19 @@ export default {
     BG_SCROLL: '#FF859B',
     BG_MARGIN: '#3E3B47',
     BG_BORDER: '#948F99',
+    BG_MOVIENOTE: '#272024',
 
     C_FONT_1: '#F4EDE8',
     C_FONT_2: '#E5E5E5',
     C_FONT_3: '#FF859B',
     C_FONT_4: '#CACACF',
+    C_FONT_5: '#948F99',
     C_FONT_INPUT: '#948F99',
     C_FONT_LINK_1: '#FF859B',
     C_FONT_LINK_2: '#948F99',
     C_FONT_BUTTON: '#312E38',
     C_FONT_PLACEHOULDER: '#F4EDE8',
+    C_HOVER: '#C95E71',
   
   }
 }
