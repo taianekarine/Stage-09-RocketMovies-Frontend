@@ -38,8 +38,10 @@ export const Profile = styled(Link)`
   white-space: nowrap;
   }
 
-  a {
+  button {
     color: ${({ theme }) => theme.COLORS.C_FONT_LINK_2};
+    border: none;
+    background: transparent;
   }
 
 }

@@ -12,12 +12,14 @@ export const Container = styled.div`
     padding: 0 12.4rem;
   }
 
-  a {
+  button {
     color: ${({ theme }) => theme.COLORS.C_FONT_3};
     gap: .8rem;
     font-size: 1.6rem;
     display: flex;
     align-items: center;
+    background: none;
+    border: none;
   }
 `;
 

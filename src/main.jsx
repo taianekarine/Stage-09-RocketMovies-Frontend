@@ -1,9 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './Styles/global';
-import theme from './Styles/theme'
-import { Routes } from './Routes'
+import theme from './Styles/theme';
+import { Routes } from './Routes';
+import { AuthProvider } from './hooks/auth';
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,8 +13,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ThemeProvider theme={theme}>
       
       <GlobalStyles />
-     
-      <Routes />
+      <AuthProvider>
+          <Routes />
+      </AuthProvider>
 
     </ThemeProvider>
   </React.StrictMode>
